@@ -9,7 +9,7 @@ export default function Home() {
 
   const { unityProvider, isLoaded, loadingProgression, requestFullscreen } = useUnityContext({
     loaderUrl: "../build/CardTacticGame.loader.js",
-    dataUrl: "https://media.githubusercontent.com/media/Mounaji-Webs/master/public/build/CardTacticGame.data",
+    dataUrl: "https://media.githubusercontent.com/media/[Mounaji-Webs]/[master]/public/build/[CardTacticGame].data",
     frameworkUrl: "../build/CardTacticGame.framework.js",
     codeUrl: "../build/CardTacticGame.wasm",
       productName: "Turn Strategy Multiplayer Prototype",
