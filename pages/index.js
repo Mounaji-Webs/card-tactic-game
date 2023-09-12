@@ -9,7 +9,7 @@ export default function Home() {
 
   const { unityProvider, isLoaded, loadingProgression, requestFullscreen } = useUnityContext({
     loaderUrl: "../build/CardTacticGame.loader.js",
-    dataUrl: "https://drive.google.com/file/d/1geO-sl_KpG499I_OraCt-iPYCPuZxNw1/view?usp=drive_link",
+    dataUrl: "https://media.githubusercontent.com/media/Mounaji-Webs/card-tactic-game/master/public/build/CardTacticGame.data",
     frameworkUrl: "../build/CardTacticGame.framework.js",
     codeUrl: "../build/CardTacticGame.wasm",
       productName: "Turn Strategy Multiplayer Prototype",
@@ -62,7 +62,7 @@ export default function Home() {
     <div className="App">
       <header className="App-header">
         
-       <t1 className="Text-tittle"> Turn Based Strategy Game Prototype </t1>
+       <h1 className="Text-tittle"> Turn Based Strategy Game Prototype </h1>
       </header>
       <div className="container">
       {isLoaded === false && (
